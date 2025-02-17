@@ -1,0 +1,19 @@
+body {
+    background-color: #0b0b33;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.confirmation-card {
+    background-color: #24124a;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+.icon {
+    font-size: 40px;
+}

@@ -1,0 +1,81 @@
+body {
+    background: url('Landing.png') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.card {
+    background-color: #2d1b4a; color: white;
+}
+.btn-primary {
+    background-color: #a67cdb; border: none;
+}
+.flatpickr-calendar {
+    background-color: #2d1b4a !important; color: white; 
+}
+/* General Flatpickr Styling */
+.flatpickr-calendar {
+    background-color: #1a1a40 !important; /* Darker background */
+    border: 1px solid #a67cdb;
+}
+
+/* Month, Year, and Navigation Arrows */
+.flatpickr-months {
+    background-color: #1a1a40 !important;
+    color: white !important;
+}
+.flatpickr-month {
+    color: white !important;
+}
+.flatpickr-current-month input.cur-year {
+    color: white !important;
+}
+
+/* Navigation Arrows */
+.flatpickr-prev-month, .flatpickr-next-month {
+    fill: white !important;
+}
+
+/* Weekday Labels (Mon, Tue, etc.) */
+.flatpickr-weekdays {
+    background-color: #1a1a40 !important;
+    color: white !important;
+}
+span.flatpickr-weekday {
+    color: white !important;
+}
+
+/* Day Styles */
+.flatpickr-day {
+    color: white !important;
+    background: transparent;
+    border-radius: 5px;
+}
+.flatpickr-day:hover {
+    background: #a67cdb !important;
+    color: #0b0b33 !important;
+}
+.flatpickr-day.today {
+    background: #a67cdb !important;
+    color: #0b0b33 !important;
+    font-weight: bold;
+}
+.flatpickr-day.selected {
+    background: #d39bf7 !important;
+    color: #0b0b33 !important;
+    font-weight: bold;
+}
+
+/* Time Picker Styles */
+.flatpickr-time {
+    background-color: #1a1a40 !important;
+    color: white !important;
+}
+.flatpickr-time input {
+    color: white !important;
+    background: #1a1a40 !important;
+}
+.flatpickr-time .flatpickr-am-pm {
+    color: white !important;
+    background: #1a1a40 !important;
+}

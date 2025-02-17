@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #0d0d19;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('Landing.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 50px 170px;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 13, 25, 0.7);
+}
+.hero-content {
+    font-size: 20px;
+    position: relative;
+    max-width: 800px;
+}
+.brand {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.hero h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.btn-custom {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background-color: #ccc;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 20px;
+    padding: 10px 15px;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+    padding: 10px 30px;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-nav .nav-item:last-child .nav-link {
+    padding: 8px 20px;
+    margin-top: -2px;
+}
+.services {
+    background-color: #0d0d1a; /* Dark background */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.card h4 {
+    color: white; /* Gold headings */
+}
+
+.text-secondary {
+    color: #bbb !important; /* Lighter gray for contrast */
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2) !important;
+}
+.about-section {
+    background-color: #0d0d1a;
+    color: #ddd;
+}
